@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300;1,600&family=Open+Sans:wght@500;600&family=Oswald:wght@400;600;700&family=Playfair+Display:wght@800;900&family=Roboto:wght@500;700&family=Space+Grotesk:wght@300&family=Ubuntu:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/css/class_display.css">
+</head>
+
+<body>
+    <div class="class_bg_img">
+        <a href="/"><button class="back_arrow_button"><img src="/static/image/arrow-left.png"
+                    class="back_arrow"></button></a>
+        <h1 class="heading_text">SELECT YOUR CLASS:</h1>
+        <div class="class8to10">
+            <h1 class="8to10">Class 8th-10th</h1>
+            <div class="class8to10_buttons">
+                <a href="{% url 'class_first_row' %}"><button>Class 8</button></a>
+                <a href="{% url 'class_first_row' %}"><button>Class 9</button></a>
+                <a href="{% url 'class_first_row' %}"><button>Class 10</button></a>
+            </div>
+        </div>
+        <div class="class11to12">
+            <h1 class="11to12">Class 11th to 12th</h1>
+            <div class="class11to12_buttons">
+                <a href="{% url 'class_second_row' %}"><button>Class 11</button></a>
+                <a href="{% url 'class_second_row' %}"><button>Class 12</button></a>
+            </div>
+        </div>
+        <div class="jee_neet">
+            <h1 class="jee/neet">JEE/NEET</h1>
+            <div class="jee_neet_buttons">
+                <a href="{% url 'class_third_row' %}"><button>JEE Mains</button></a>
+                <a href="{% url 'class_third_row' %}"><button>JEE Adv</button> </a>
+                <a href="{% url 'class_third_row' %}"><button>NEET</button> </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

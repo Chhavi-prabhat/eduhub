@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNUP</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300;1,600&family=Open+Sans:wght@500;600&family=Oswald:wght@400;600;700&family=Playfair+Display:wght@800;900&family=Roboto:ital,wght@0,500;1,500;1,700&family=Space+Grotesk:wght@300&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <img src="/static/image/signup_two.jfif" class="signup_image">
+    <form action="/profile/" method="post">
+        {% csrf_token %}
+        <img src="/static/image/LOGO.png" class="signup_logo">
+        <div class="forminputs">
+            <div class="name_field_signup">
+                <label for="name" class="form_labels">Name</label>
+                <div class="col-sm-10">
+                    <input type="text" name="name" class="name_field_signup_placeholder" id="colFormLabelSm"
+                        placeholder="Enter your name">
+                </div>
+            </div>
+            <div class="email_field_signup">
+                <label for="email" class="form_labels">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" name="email" class="email_field_signup_placeholder" id="colFormLabelSm"
+                        placeholder="Enter your email">
+                </div>
+            </div>
+            <div class="password_field_signup">
+                <label for="password" class="form_labels">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" name="passw" class="password_field_signup_placeholder" id="colFormLabelSm"
+                        placeholder="Create your password">
+                </div>
+            </div>
+            <div class="date_field_signup">
+                <label for="date" class="form_labels">Date</label>
+                <div class="col-sm-10">
+                    <input type="date" class="date_field_signup_placeholder" id="colFormLabelSm"
+                        placeholder="Enter date">
+                </div>
+            </div>
+            <div class="signup_to_login"><b>OR</b><br>
+                Already have an account?<a href="D:\edu_website\login.html">LOGIN</a>
+            </div>
+            <div class="signupButton">
+                <button class="signup_button">SignUp</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

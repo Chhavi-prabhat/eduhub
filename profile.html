@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>postsign in</title>
+    <style>
+        .navigation {
+            display: flex;
+        }
+
+        /* links in nav bar */
+        .UsefulLinks {
+            display: flex;
+            font-family: 'Fira Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+            width: 100%;
+            gap: 4rem;
+            list-style: none;
+            font-size: 27px;
+            justify-content: right;
+            cursor: pointer;
+            padding-inline: 5rem;
+            font-weight: bold;
+
+
+        }
+
+        /* logo in nav bar */
+        .logo {
+            width: 10rem;
+            height: 5rem;
+        }
+
+        /* all links */
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .brief_intro_to_edu_text {
+            font-size: 40px;
+            font-family: 'Fira Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+            position: float;
+            top: 1rem;
+            padding: 50px;
+            color: black;
+        }
+
+        .profile_button {
+            font-size: 2rem;
+            border-color: white;
+            font-family: 'Fira Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+            justify-content: left;
+            background-color: rgb(7, 111, 230);
+            color: white;
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+        }
+
+        .button_Area {
+            padding: 20px;
+        }
+
+        .student_image {
+            height: 500px;
+            width: 500px;
+            position: absolute;
+            right: 70px;
+            top: 170px;
+        }
+
+        .whatsapp_group {
+            font-size: 2rem;
+            bottom: 890px;
+            font-family: 'Fira Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+            justify-content: left;
+            background-color: rgb(9, 204, 97);
+            color: white;
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            border-color: white;
+
+        }
+
+        .whatsapp_group:hover {
+            font-size: 2rem;
+            bottom: 890px;
+            font-family: 'Fira Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+            justify-content: left;
+            background-color: white;
+            color: rgb(9, 204, 97);
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            border-color: rgb(9, 204, 97);
+
+        }
+
+        .whatsapp_logo {
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    {% csrf_token %}
+    <nav class="navigation">
+        <h1><img src="/static/image/LOGO.png" class="logo"></h1>
+        <ul class="UsefulLinks">
+            <a href="/">
+                <li>HOME</li>
+            </a>
+            <a href="contact/">
+                <li>CONTACT</li>
+            </a>
+            <a href="about/">
+                <li>ABOUT</li>
+            </a>
+            <a href="login/">
+                <li>LOGIN</li>
+            </a>
+            <a href="signup/">
+                <li>SIGN UP</li>
+            </a>
+        </ul>
+    </nav>
+    <hr>
+    <h1>WELCOME!</h1>
+
+    <div class="brief_intro_to_edu">
+        <h1>Thank you for coming here!</h1>
+        <img src="/static/image/student.jfif" class="student_image">
+        <div class="brief_intro_to_edu_text">
+            EDUHUB will provide you with all<br>resources you need in your studies <br>in just one click!<br>
+            All the videos and website is only<br> one click far from. <br>Make sure you visit all our services
+            <br>listed
+            below:<br>
+            <spam>
+                <a href="{% url 'class_display' %}"><button class="profile_button">Available
+                        Domains</button></a>
+            </spam>
+            <a href="https://chat.whatsapp.com/EiJEMMcNhGjKahA98jkCQu"><button class="whatsapp_group"><img
+                        src="/static/image/whatsapp_logo.png" class="whatsapp_logo">Join
+                    Group</button></a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

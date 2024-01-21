@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>about us page</title>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scaled=1.0">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="/static/css/about.css">
+    <style>
+        .about_us_page_image {
+            position: absolute;
+            right: 100px;
+            height: 30rem;
+            width: 30rem;
+        }
+
+        .logo {
+            width: 10rem;
+            height: 5rem;
+        }
+
+        .navigation {
+            display: flex;
+        }
+
+        /* links in nav bar */
+        .UsefulLinks {
+            display: flex;
+            font-family: 'Fira Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+            width: 100%;
+            gap: 4rem;
+            list-style: none;
+            font-size: 27px;
+            justify-content: right;
+            cursor: pointer;
+            padding-inline: 5rem;
+            font-weight: bold;
+
+
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+
+        }
+    </style>
+</head>
+
+<body style="background-color: #fff;">
+    <nav class="navigation">
+        <h1><img src="/static/image/LOGO.png" class="logo"></h1>
+        <ul class="UsefulLinks">
+            <a href="/">
+                <li>HOME</li>
+            </a>
+            <a href="contact/">
+                <li>CONTACT</li>
+            </a>
+            <a href="about/">
+                <li>ABOUT</li>
+            </a>
+            <a href="login/">
+                <li>LOGIN</li>
+            </a>
+            <a href="signup/">
+                <li>SIGN UP</li>
+            </a>
+        </ul>
+    </nav>
+    <hr>
+    <div class="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="flex">
+                    <h2><u>ABOUT US</u></h2>
+                    <h3>Discover Our Team's Story</h3>
+                    <img src="/static/image/about.jpg" class="about_us_page_image">
+                    <p>Welcome to EduHub, where our mission is to bridge the
+                        educational gap in rural communities and
+                        empower the next generation through quality education. We're on a mission to break barriers,
+                        ensuring every child, regardless of location, receives a transformative education. Our dedicated
+                        team employs innovative methods, from modern curriculum design to tech-enabled learning,
+                        tailored for rural students. By fostering community engagement, we create a supportive
+                        ecosystem. Explore success stories showcasing the power of education in rural settings. Join us
+                        in making a difference - your support through donations, volunteering, or advocacy fuels our
+                        commitment to building a brighter future for these communities. Together, let's empower through
+                        education..</p>
+                    <div class="social-link">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <a href="" class="btn">Learn More</a>
+                </div>
+                <div class="flex">
+                    <img src="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
