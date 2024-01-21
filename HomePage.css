@@ -1,0 +1,418 @@
+        /* root color of website in dark and light mode */
+        :root {
+            --primary-color: #e0dede;
+            --secondary-color: #000;
+        }
+
+        /* body of homepage */
+        body {
+            background-repeat: no-repeat;
+            background-size: cover;
+            filter: blur(0px);
+        }
+
+        /* all links */
+        a {
+            text-decoration: none;
+        }
+
+        /* Hero section background image */
+        .background_image {
+            width: 100%;
+            background-image: url(poster_two.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /* nav baar links container */
+        .navigation {
+            display: flex;
+        }
+
+        /* links in nav bar */
+        .UsefulLinks {
+            display: flex;
+            font-family: 'Fira Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+            width: 100%;
+            gap: 4rem;
+            list-style: none;
+            font-size: 27px;
+            justify-content: right;
+            cursor: pointer;
+            padding-inline: 5rem;
+            font-weight: bold;
+
+
+        }
+
+        /* logo in nav bar */
+        .logo {
+            width: 10rem;
+            height: 5rem;
+        }
+
+        /* text in hero section */
+        .poster-text {
+            font-size: 40px;
+            font-family: 'Fira Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+            position: float;
+            top: 1rem;
+            padding: 200px;
+            border-radius: 10px;
+            text-align: center;
+            color: black;
+
+
+        }
+
+        /* hero section heading(EDUHUB) */
+        .poster-text h1 {
+            padding: 2rem;
+        }
+
+        /* hero section (time to enroll...)text */
+        .main_pos_text {
+            padding: 1rem;
+        }
+
+        /* Get started button in her section */
+        .getstartedbutton {
+
+            border-radius: 10px;
+            font-size: 40px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.1);
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            color: #000000;
+
+        }
+
+        .survey_text {
+            font-size: 15px;
+            font-family: 'Fira Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        /* footer desgin */
+        footer {
+            background-color: var(--primary-color);
+            left: 0;
+            padding: 20px;
+        }
+
+        .service_header {
+            list-style: none;
+        }
+
+        .footer_container {
+            margin: auto;
+            padding: 1rem;
+        }
+
+        .content__footer {
+            display: flex;
+            justify-content: baseline;
+            /* align-items: center; */
+        }
+
+        .footer_logo {
+            width: 12rem;
+            height: 5rem;
+            padding: 10px;
+        }
+
+        .desc_area {
+            max-width: 320px;
+            line-height: 30px;
+            color: var(--secondary-color);
+            font-weight: 500;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        .service_area {
+            display: flex;
+            font-size: 20px;
+            position: fixed;
+            right: 10rem;
+            padding: 5rem;
+        }
+
+        .footer_link {
+            text-decoration: none;
+            color: var(--secondary-color);
+        }
+
+        .social_media_logo a {
+            font-size: 40px;
+            text-decoration: none;
+            background-color: white;
+            border-radius: 70%;
+            padding-inline: 0.1rem;
+            gap: 5rem;
+
+        }
+
+        .social_media_logo {
+            color: var(--secondary-color);
+            gap: 2rem;
+
+        }
+
+
+        .social_media_logo img :hover {
+            color: grey;
+        }
+
+        .service_content {
+            margin-bottom: 10px;
+        }
+
+        .service_header {
+            color: var(--secondary-color);
+        }
+
+
+        @media screen and (max-width:760px) {
+            .content__footer {
+                flex-wrap: wrap;
+                justify-content: left;
+
+            }
+
+            .service_area {
+                flex-wrap: wrap;
+                justify-content: left;
+            }
+
+        }
+
+        .dark-mode {
+            --primary-color: black;
+            --secondary-color: white;
+        }
+
+        .light-mode {
+            --primary-color: white;
+            --secondary-color: black;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .location_store {
+            display: flex;
+        }
+
+        .google_map {
+            width: 50%;
+            padding: 20px;
+        }
+
+        .map_text {
+            font-size: 30px;
+            font-family: 'Fira Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+            color: #000000;
+
+        }
+
+        .map_text h6 {
+            font-size: 2.5rem;
+
+        }
+
+        .survey_text h1 {
+            font-size: 2.5rem;
+        }
+
+
+        /* location TRACE button in location section */
+        .location_button {
+            font-size: 2rem;
+            position: absolute;
+            bottom: 890px;
+            font-family: 'Fira Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+            position: absolute;
+            justify-content: left;
+            background-color: rgb(7, 111, 230);
+            color: white;
+            padding-right: 20px;
+            padding-left: 20px;
+            border-radius: 3px;
+            border-color: white;
+        }
+
+        .main_text_survey_button {
+            font-size: 2rem;
+            background-color: rgb(7, 111, 230);
+            font-family: 'Fira Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+            justify-content: left;
+            color: white;
+            border-radius: 3px;
+            border-color: white;
+            position: absolute;
+            left: 10px;
+            top: 950px;
+            padding-left: 20px;
+            padding-right: 20px;
+
+        }
+
+        .main_text_survey_button:hover {
+            border-color: rgb(7, 111, 230);
+            background-color: white;
+            color: rgb(7, 111, 230);
+
+        }
+
+        .survey_area {
+            padding-bottom: 170px;
+            padding-left: 20px;
+            font-family: 'Fira Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+
+        }
+
+        /* survey section image */
+        .survey_area img {
+            height: 350px;
+            width: 450px;
+            padding-bottom: 40px;
+            position: absolute;
+            right: 100px;
+            top: 1700px;
+        }
+
+        .main_text_survey {
+            font-size: 25px;
+        }
+
+        /* location section TRACE button hover effect */
+        .location_button:hover {
+            border-color: rgb(7, 111, 230);
+            background-color: white;
+            color: rgb(7, 111, 230);
+        }
+
+        /* location area paragraph text */
+        .location_des_text {
+            font-size: 25px;
+            word-spacing: 1rem;
+            position: absolute;
+            bottom: 990px;
+
+        }
+
+        /* laptop mockup(login) image */
+        .laptop_mockup {
+            height: 700px;
+            width: 740px;
+            margin-left: 24rem;
+        }
+
+
+        /* heading in first feature of our features(laptop mockup) */
+        .features {
+            padding-left: 20px;
+            font-size: 2.5rem;
+            display: flex;
+            font-family: 'Fira Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        /* The text in first feature(laptop mockup) */
+        .secure_login_text {
+            position: absolute;
+            left: 4rem;
+            top: 78rem;
+            font-size: 30px;
+            font-family: 'Fira Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        /* graph section heading in graph section */
+        .graphSection h1 {
+            padding-left: 20px;
+            font-family: 'Fira Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        /* card area of rural pie chart in graph section */
+        ._ruralGraphcard {
+            padding-left: 20px;
+            padding-bottom: 20px;
+            border-radius: 40px;
+            border: 15px solid white;
+            background-color: rgb(224, 224, 224);
+            margin-left: 20px;
+        }
+
+        /* text area of rural pie chart in graph data section */
+        .ruralGraph_card-body {
+            font-size: 20px;
+            font-family: 'Fira Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Space Grotesk', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+
+        }

@@ -1,0 +1,155 @@
+body {
+    padding-left: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.class_bg_img {
+    background-image: url("class_bg_img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 160px;
+}
+
+.back_arrow {
+    height: 30px;
+    width: 30px;
+    padding: 0%;
+}
+
+.back_arrow_button {
+    background-color: rgb(7, 111, 230);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.class8to10_buttons button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(7, 111, 230);
+    border: 2px solid white;
+    border-radius: 15px;
+    font-size: 2rem;
+    color: white;
+    margin-left: 2rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.class8to10_buttons button:hover {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(252, 253, 255);
+    border: 2px solid rgb(7, 111, 230);
+    border-radius: 15px;
+    font-size: 2rem;
+    color: rgb(7, 111, 230);
+    margin-left: 2rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.class11to12_buttons button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(7, 111, 230);
+    border: 2px solid white;
+    border-radius: 15px;
+    font-size: 2rem;
+    color: white;
+    margin-left: 2rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.class11to12_buttons button:hover {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border: 2px solid rgb(7, 111, 230);
+    border-radius: 15px;
+    font-size: 2rem;
+    color: rgb(7, 111, 230);
+    margin-left: 2rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.jee_neet_buttons button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(7, 111, 230);
+    border: 2px solid white;
+    border-radius: 15px;
+    font-size: 2rem;
+    color: white;
+    margin-left: 2rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+.jee_neet_buttons button:hover {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border: 2px solid rgb(7, 111, 230);
+    border-radius: 15px;
+    font-size: 2rem;
+    color: rgb(7, 111, 230);
+    margin-left: 2rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}

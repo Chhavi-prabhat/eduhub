@@ -1,0 +1,31 @@
+.navigation {
+    display: flex;
+}
+
+/* links in nav bar */
+.UsefulLinks {
+    display: flex;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    gap: 4rem;
+    list-style: none;
+    font-size: 27px;
+    justify-content: right;
+    cursor: pointer;
+    padding-inline: 5rem;
+    font-weight: bold;
+
+
+}
+
+/* logo in nav bar */
+.logo {
+    width: 10rem;
+    height: 5rem;
+}
